@@ -168,8 +168,8 @@ const Contact = () => {
               <ContactItem
                 icon={FiPhone}
                 title="Phone"
-                content="(469) 799-6286"
-                href="tel:+14697996286"
+                content="123-456-7890"
+                href="tel:+123-456-7890"
                 delay={0.2}
               />
               <ContactItem
