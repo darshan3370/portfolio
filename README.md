@@ -60,10 +60,3 @@ npm run build
 ```
 
 This will create an optimized production build in the `build` folder.
-
-## Contact
-
-- Email: darshan.savaliya997@gmail.com
-- Phone: (469) 799-6286
-- Location: Dallas, Texas
-- LinkedIn: [Darshan Savaliya](https://www.linkedin.com/in/darshansavaliya/) 
