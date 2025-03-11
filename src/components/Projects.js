@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiCode, FiServer, FiCpu, FiArrowRight } from 'react-icons/fi';
 
 const projects = [
@@ -80,6 +80,7 @@ const ProjectCard = ({ project, index }) => {
         style={{
           rotateX: mousePosition.y,
           rotateY: mousePosition.x,
+          scale: isHovered ? 1.02 : 1,
         }}
         className="bg-white p-8 rounded-lg relative overflow-hidden group transform-gpu transition-all duration-300 hover:shadow-xl shadow-lg"
       >
