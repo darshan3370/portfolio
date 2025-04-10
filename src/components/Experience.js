@@ -5,7 +5,7 @@ import { FiBriefcase, FiCalendar, FiMapPin, FiCheck } from 'react-icons/fi';
 const experiences = [
   {
     title: 'Software Developer',
-    company: 'CVS Health',
+    company: 'Target',
     location: 'Dallas, TX',
     period: 'January 2024 – Present',
     achievements: [
