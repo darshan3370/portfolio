@@ -5,23 +5,39 @@ import { FiCode, FiLayers, FiCloud, FiDatabase, FiTool } from 'react-icons/fi';
 const skills = {
   'Programming Languages': {
     icon: FiCode,
-    items: ['Java', 'Python', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SCSS', 'PHP']
+    items: [
+      'Python', 'Java', 'J2EE', 'C#', 'C++', 'TypeScript', 'JavaScript', 'SQL', 'HTML', 'CSS', 'SCSS', 'PHP'
+    ]
   },
   'Frameworks & Libraries': {
     icon: FiLayers,
-    items: ['ReactJS', 'Angular', 'Spring Boot', 'Flask', 'Laravel', 'J2EE']
+    items: [
+      '.NET', 'Spring Boot', 'Flask', 'Django', 'React', 'Angular', 'Laravel'
+    ]
   },
   'Cloud & DevOps': {
     icon: FiCloud,
-    items: ['AWS', 'Azure', 'Git', 'Jenkins', 'Docker', 'Kubernetes']
+    items: [
+      'AWS', 'Azure', 'GCP', 'S3', 'EC2', 'Lambda', 'AKS', 
+      'Docker', 'Kubernetes', 'Jenkins', 'Terraform', 
+      'Spark', 'Flink', 'Git'
+    ]
   },
   'Databases': {
     icon: FiDatabase,
-    items: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
+    items: [
+      'MySQL', 'MongoDB', 'Redis', 'AWS DynamoDB', 'Azure Cosmos DB', 
+      'PostgreSQL', 'MS SQL Server', 'NoSQL', 'Cassandra'
+    ]
   },
   'Tools & Technologies': {
     icon: FiTool,
-    items: ['REST API', 'Apache Kafka', 'JUnit', 'Selenium', 'Jira', 'System Design']
+    items: [
+      'AI', 'MLOps', 'LLMs', 'NLP', 'IaaS', 'System Design', 
+      'TCP/IP', 'REST API', 'Linux', 'SDLC', 'Scrum', 'Agile', 
+      'Design Patterns', 'Android', 'CI/CD', 
+      'Apache Kafka', 'JUnit', 'Selenium', 'Jira'
+    ]
   }
 };
 
