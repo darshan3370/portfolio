@@ -16,7 +16,7 @@ const experiences = [
     ]
   },
   {
-    title: 'SDE - Intern',
+    title: 'Software Developer Intern',
     company: 'University of Texas at Arlington',
     location: 'Arlington, TX',
     period: 'March 2023 – December 2023',
@@ -33,10 +33,13 @@ const experiences = [
     location: 'India',
     period: 'May 2020 – November 2021',
     achievements: [
-      'Reduced case processing time by 24 hours by revamping DigiGov\'s case management module using Angular, Spring Boot, and Apache Kafka for scalable performance.',
-      'Achieved a 25% reduction in cloud infrastructure costs by transitioning modules to AWS, enhancing system scalability and operational performance.',
-      'Boosted document processing efficiency by 30% by integrating AWS Intelligent Document Processing, streamlining workflows.'
-    ]
+  'Developed a scalable telemedicine platform using AWS (ECS, Elastic Beanstalk, EC2, S3, Lambda, API Gateway), Java, Spring Boot, React, and Docker, enabling over 100K+ remote consultations in the first year and achieving a 60% reduction in patient wait times.',
+  'Optimized video streaming performance from 25 fps to 43 fps and slashed lag to 10 nanoseconds through advanced threading techniques and GPU acceleration, while implementing AES-256 encryption for secure multi-terabyte data storage.',
+  'Integrated machine learning models using Python, Scikit-learn, and TensorFlow to enhance symptom analysis accuracy by 40%, driving smarter initial patient assessments and recommendations.',
+  'Reengineered the contract management system utilizing NLP techniques (spaCy), real-time notifications with AWS SNS, and continuous integration pipelines through GitHub Actions, reducing contract processing time by 70%.',
+  'Mentored a team of 4 interns in code review best practices, Agile methodologies, Python programming, and machine learning model deployment, fostering a culture of technical excellence and collaboration.'
+]
+
   },
   {
     title: 'Software Developer',
@@ -44,10 +47,13 @@ const experiences = [
     location: 'India',
     period: 'October 2018 – April 2020',
     achievements: [
-      'Redesigned an online food ordering app with React, Python, HTML, CSS and Flask, boosting responsiveness and improving load times by 30%.',
-      'Programmed RESTful APIs with Flask for efficient backend communication and seamless data flow.',
-      'Illustrated a robust infrastructure using MySQL and AWS (S3, RDS) for real-time data sync and Voice Assist integration, increasing order volume by 30% and customer satisfaction by 55%.'
-    ]
+  'Developed SOS Assistant, a women’s safety application, leveraging Java and PostgreSQL with PostGIS to build a high-speed system capable of processing distress signals within 500ms.',
+  'Implemented real-time event streaming using Apache Kafka and Apache Flink, deploying the solution on AWS infrastructure with CloudFront and Amazon ECS configured for auto-scaling to ensure high availability.',
+  'Integrated Twilio APIs for automated SMS alerts and WebRTC for secure real-time audio and video communication, enhancing the immediacy of emergency responses.',
+  'Achieved processing of over 10,000 daily alerts with 99.99% system uptime, leading to a 300% improvement in emergency response times upon adoption.',
+  'Accelerated professional development in a first-role environment by closely collaborating with senior engineers on complex software development initiatives, gaining hands-on experience in large-scale system design.'
+]
+
   }
 ];
 
