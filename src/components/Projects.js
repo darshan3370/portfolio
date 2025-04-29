@@ -4,6 +4,21 @@ import { FiGithub, FiExternalLink, FiCode, FiServer, FiCpu, FiArrowRight } from 
 
 const projects = [
   {
+    title: 'Adaptive Learning Platform',
+    description: 'Developed a comprehensive online learning platform for coding bootcamps, supporting both synchronous and asynchronous learning modes.',
+    technologies: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'Terraform', 'AWS'],
+    features: [
+      'Implemented scalable MVC architecture with Spring Boot for high concurrency (10,000+ users)',
+      'Responsive UI using React.js and D3.js for visualizing course progress',
+      'Support for real-time and self-paced learning workflows',
+      'Infrastructure-as-Code deployment using Terraform and AWS'
+    ],
+    github: 'https://github.com/darshan3370',
+    demo: 'https://github.com/darshan3370',
+    icon: FiServer
+  }
+];
+  {
     title: 'AI Powered Food Delivery Application',
     description: 'Modernized web applications utilizing Python, Flask, AWS services, HTML, CSS, S3 buckets, and PostgreSQL, enabling users to discover and order food online while engaging in discussion forums.',
     technologies: ['Python', 'Flask', 'AWS', 'PostgreSQL', 'HTML', 'CSS'],
